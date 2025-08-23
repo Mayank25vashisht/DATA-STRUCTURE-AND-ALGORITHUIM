@@ -12,11 +12,12 @@ using namespace std;
 
  }
 int main(){
-    int arr[]={1,2,4,10,5,9,8};
+    int arr[]={64,34,25,12,22,11,90};
     int sz=7;
 bubblesort(arr,sz);
 for(int i=0;i<sz;i++){
     cout<<arr[i]<<" ";
 }
     return 0;
+
 }
